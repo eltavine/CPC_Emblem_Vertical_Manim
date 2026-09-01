@@ -1,0 +1,36 @@
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local Python/Conda environments and package-manager data
+.venv/
+.manim-env/
+.mamba/
+.tools/
+venv/
+env/
+
+# Manim render cache and generated media
+media/
+output/
+
+# Local machine and editor files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
