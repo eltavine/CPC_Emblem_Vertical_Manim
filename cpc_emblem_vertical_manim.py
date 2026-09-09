@@ -1,3 +1,29 @@
+# SPDX-License-Identifier: MIT
+#
+# Copyright (c) 2026 Eltavine
+#
+# This source code is licensed under the MIT License.
+# See the LICENSE file in the repository root for details.
+#
+# This program contains an independent software implementation for
+# constructing and animating the emblem of the Communist Party of China
+# based on the construction specification published with the
+# "Regulations on the Party Emblem and Party Flag of the Communist Party
+# of China" (中国共产党党徽党旗条例).
+#
+# The MIT License applies only to the software implementation in this
+# repository. It does not grant any rights in, or modify any legal rules
+# governing the use of, the Party emblem, Party flag, their designs,
+# official specifications, or other protected symbols.
+#
+# Users are responsible for ensuring that any rendering, publication,
+# distribution, or other use of the emblem complies with applicable laws,
+# regulations, and official rules.
+#
+# This project is an independent technical/educational implementation and
+# is not an official publication of, or endorsed by, the Communist Party
+# of China.
+
 from manim import *
 import numpy as np
 from math import sqrt, atan2, pi
